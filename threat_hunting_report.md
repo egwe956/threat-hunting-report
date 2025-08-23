@@ -77,9 +77,9 @@ The findings confirm:
 ![Netstat Screenshot](dell_netstat_logs.jpg)
 
 ### 3.2 My Engagement - Reverse IP Analysis
-
-- Reverse IP lookup identified `152.199.39.108` 
 ![Reverse IP Lookup](reverseIPlookup.jpg)
+- Reverse IP lookup identified `152.199.39.108` 
+
 
 ---
 
