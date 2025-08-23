@@ -123,7 +123,7 @@ Techniques used:
 ### 6.2 Anomalous Device Discovery
 
 - Cross-referenced MAC addresses revealed one unidentified device absent from vendor MAC databases.
-- ![Anomalous Device Discovery](mac_address_not_found.png)
+  ![Anomalous Device Discovery](mac_address_not_found.png)
 - Multiple endpoints showed HTTP traffic to `157.240.235.61` (Facebook IP) over port 80, inconsistent with HTTPS-enforced environments.  
 - Raised suspicion of:  
   - Man-in-the-middle attacks  
