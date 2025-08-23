@@ -39,12 +39,12 @@
 
 Between May and August 2024, a series of anomalous endpoint behaviors and network activities were observed in the Singapore office of XYZ Company.
 
-I was engaged to conduct a preliminary investigation. The investigation was initiated following firsthand observation of unauthorized software execution, unexpected network traffic, and anomalous user interface behavior. A number of internal escalations and forensic analyses were conducted, culminating in the involvement of a third-party DFIR team.
+I was engaged to conduct a preliminary investigation. The investigation was initiated following firsthand observation of unauthorized privileged access, unexpected network traffic, and anomalous user interface behavior, culminating in the involvement of a third-party DFIR team.
 
 The findings confirm:
-- Unauthorized remote access tools operating post-uninstallation  
+- Unauthorized remote access tools (TeamViewer) operating post-uninstallation 
 - Persistence mechanisms indicative of lateral movement or credential harvesting  
-- User workstation compromise potentially impacting business operations and social media identities  
+- Endpoint compromises, impacting business operations  
 
 ---
 
