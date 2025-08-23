@@ -140,10 +140,8 @@ Techniques used:
 - Live intrusion attempt observed on Compliance Officer’s MacBook.  
 - Indicators included spikes in unauthorized traffic and CPU load.  
 
-Validation steps:  
+Validation:  
 - Correlated firewall and endpoint logs  
-- Banner grabbing on attacker IPs  
-- Web scraping for linked credentials and malware hashes  
 
 ![Live Intrusion Attempt](2_2.png)
 
