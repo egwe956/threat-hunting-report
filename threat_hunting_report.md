@@ -74,10 +74,12 @@ The findings confirm:
 - A network scan revealed outbound connections to:  
   - Port 5938 (TeamViewer default)  
   - Multiple port 80 HTTP connections, raising suspicion  
+![Netstat Screenshot](dell_netstat_logs.jpg)
 
 ### 3.2 My Engagement - Reverse IP Analysis
 
 - Reverse IP lookup identified `152.199.39.108` 
+![Reverse IP Lookup](reverse IP lookup.jpg)
 
 ---
 
@@ -127,6 +129,7 @@ Techniques used:
   - Transparent proxies  
   - Credential harvesting  
 
+![Anomalous Device Discovery](mac_address_not_found.png)
 ---
 
 ## 7. Active Threat Indicators and Compromise Extension
@@ -141,12 +144,15 @@ Validation steps:
 - Banner grabbing on attacker IPs  
 - Web scraping for linked credentials and malware hashes  
 
+![Live Intrusion Attempt](2_2.png)
+
 ### 7.2 Compromise of HR Personnel
 
 - HR team member’s Facebook account cloned and hijacked.  
 - Workstation repeatedly accessed Facebook IP `157.240.235.61` over HTTP.  
 - OSINT correlation confirmed persistent compromise via malware or man-in-the-middle mechanisms.  
 
+![HR Compromise](post_method.png)
 ---
 
 ## 8. Compromise of Remote Desktop Infrastructure
