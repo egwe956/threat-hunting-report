@@ -194,7 +194,7 @@ Validation:
 | IP Address   | 157.240.235.61   | Spoofed Facebook IP – Used in observed session hijack   |
 | Network Port | 5938             | TeamViewer port was left opened despite application process being terminated            |
 | Network Port | 80               | Plain HTTP – anomalous in secured infra      |
-| Event ID     | 4648, 4672       | Observed multiple instances of privileged access and interactive login events/gaining foothold          |
+| Event ID     | 4648, 4672       | Observed multiple instances of privileged access and interactive login events/attacker gaining foothold          |
 | OS Utility   | On-Screen Keyboard | Unexpected UI artifact on RDP server        |
 | MAC Address  | Unknown          | Unresolved device identity in logs           |
 
