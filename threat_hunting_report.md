@@ -48,7 +48,7 @@ The findings confirm:
 
 ---
 
-## 2. Initial Observations and Endpoint Irregularities
+## 2. Initial Observations and Hypothesis Development
 
 ### 2.1 Equipment Provisioning and Security Concerns
 
@@ -65,7 +65,7 @@ The findings confirm:
 
 ---
 
-## 3. Suspicious TeamViewer Behavior and Network Traffic
+## 3.Suspicious TeamViewer Behavior and Network Traffic
 
 ### 3.1 Unexpected TeamViewer Execution
 
@@ -76,7 +76,10 @@ The findings confirm:
   - Multiple port 80 HTTP connections, raising suspicion  
 ![Netstat Screenshot](dell_netstat_logs.jpg)
 
-### 3.2 My Engagement - Reverse IP Analysis
+### 3.2 Hypothesis Development
+- An unpatched TeamViewer vulnerability was exploited by an attacker. 
+
+### 3.3 My Engagement - Reverse IP Analysis
 ![Reverse IP Lookup](reverseIPlookup.jpg)
 - Reverse IP lookup identified `152.199.39.108` 
 
@@ -94,11 +97,11 @@ The findings confirm:
 ### 4.2 Response Delays
 
 - Compliance officer was only looped in on 3 July 2024.  
-- Analyst reprimanded for not escalating sooner despite clear forensic indications.  
+- Analyst reprimanded for not escalating sooner.  
 
 ---
 
-## 5. DFIR Coordination and Infrastructure Visibility
+## 5. Incident Response Coordination and Infrastructure Visibility
 
 - A fractional CTO was appointed to lead the incident response.  
 - Restricted access and lack of documentation limited internal visibility.  
