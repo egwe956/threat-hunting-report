@@ -192,15 +192,12 @@ Validation:
 
 ## 11. Key Technical Indicators of Compromise (IoCs)
 
-| Type         | Indicator         | Notes                                        |
-|--------------|------------------|----------------------------------------------|
-| IP Address   | 152.199.39.108   | Anomalous outbound TCP connection to external server which are associated to dodgy domains                     |
-| IP Address   | 157.240.235.61   | Spoofed Facebook IP – Used in observed session hijack   |
-| Network Port | 5938             | TeamViewer port was left opened despite application process being terminated            |
-| Network Port | 80               | Plain HTTP – anomalous in secured infra      |
-| Event ID     | 4648, 4672       | Observed multiple instances of privileged access and interactive login events/attacker gaining foothold          |
-| OS Utility   | On-Screen Keyboard | Unexpected UI artifact on RDP server        |
-| MAC Address  | Unknown          | Unresolved device identity in logs           |
-
----
-
+| Type         | Indicator         | Notes                                                                 | MITRE ATT&CK TTPs |
+|--------------|------------------|----------------------------------------------------------------------|-------------------|
+| IP Address   | 152.199.39.108   | Anomalous outbound TCP connection to external server which are associated to dodgy domains | **Tactic:** Command and Control / Exfiltration <br> **Technique:** Application Layer Protocol (T1071), Exfiltration Over Unencrypted Channel (T1048.003) |
+| IP Address   | 157.240.235.61   | Spoofed Facebook IP – Used in observed session hijack                 | **Tactic:** Credential Access / Defense Evasion <br> **Technique:** Session Hijacking (T1563.001), Valid Accounts (T1078) |
+| Network Port | 5938             | TeamViewer port was left opened despite application process being terminated | **Tactic:** Persistence / Remote Access <br> **Technique:** Remote Services (T1021.001) |
+| Network Port | 80               | Plain HTTP – anomalous in secured infra                               | **Tactic:** Command and Control / Exfiltration <br> **Technique:** Application Layer Protocol: Web Protocols (T1071.001), Exfiltration Over Unencrypted/Obfuscated Non-C2 Channel (T1041) |
+| Event ID     | 4648, 4672       | Observed multiple instances of privileged access and interactive login events/attacker gaining foothold | **Tactic:** Privilege Escalation / Persistence <br> **Technique:** Valid Accounts (T1078), Abuse Elevation Control Mechanism (T1548) |
+| OS Utility   | On-Screen Keyboard | Unexpected UI artifact on RDP server                                | **Tactic:** Defense Evasion / Credential Access <br> **Technique:** Accessibility Features (T1546.008) |
+| MAC Address  | Unknown          | Unresolved device identity in logs                                   | **Tactic:** Defense Evasion / Discovery <br> **Technique:** Masquerading (T1036), System Discovery (T1082) |
