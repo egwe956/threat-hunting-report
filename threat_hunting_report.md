@@ -63,6 +63,9 @@ The findings confirm:
 
 - The analyst performed manual removal of TeamViewer and RDP-related services from the Dell desktop, as company policy did not enforce a fixed application baseline.  
 
+### 2.3 Hypothesis Development 
+An inherited, previously unrefreshed Lenovo laptop that was used for penetration testing is likely compromised or misconfigured, resulting in reverse shell/remote access. Despite manual removal of TeamViewer and RDP components on a separate Dell desktop, remote access functionality or remnants appear to persist on at least one endpoint, evidenced by a brief TeamViewer login user interface appearance without corresponding service start or installation logs. This suggests a stealthy persistence mechanism, side loading, or a renamed binary scheduled task that evades standard logs, leading to intermittent unauthorized access attempts and prolonged boot times.
+
 ---
 
 ## 3.Suspicious TeamViewer Behavior and Network Traffic
