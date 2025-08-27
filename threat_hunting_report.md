@@ -6,7 +6,8 @@
 1. Executive Summary  
 2. Initial Observations and Endpoint Irregularities  
    - 2.1 Equipment Provisioning and Security Concerns  
-   - 2.2 Local Hardening  
+   - 2.2 Local Hardening
+   - 2.3 Hypothesis Development 
 3. Suspicious TeamViewer Behavior and Network Traffic  
    - 3.1 Unexpected TeamViewer Execution  
    - 3.2 My Engagement - Reverse IP Analysis  
