@@ -8,7 +8,7 @@
 ## Repository Structure
 - `threat_hunting_report.md` — Main report with methodology, findings, and recommendations
 - `dell_netstat_logs.jpg` — Network connections captured from endpoint review
-- `reverseIPlookup.jpg`, `reverse_IP_lookup.jpg` — Reverse IP lookup evidence
+- `reverseIPlookup.jpg` — Reverse IP lookup evidence
 - `mac_address_not_found.png` — MAC address anomaly evidence
 - `post_method.png` — HTTP POST method observation
 - `2_2.png`, `2.png` — Additional supporting artifacts and screenshots
